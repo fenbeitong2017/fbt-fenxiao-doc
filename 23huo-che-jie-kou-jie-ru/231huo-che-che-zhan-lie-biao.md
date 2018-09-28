@@ -33,17 +33,10 @@ data.source| 订单来源|string |Y|A企业 JUNWEI000001
 	"sign":"oihfnlyeofdh98",
 	"timestamp":124124325,
 	"employee_id":"59b74c1323445f2d54dd07922",
-	"employee_type":1,
-	"data":     {
-                "orderno": "5bab55d22798633d548179cb",
-            "status":1,
-          "bdate":"2018-09-20",
-          "edate":"2018-09-27",
-                "supplier": "分贝通",
-                "page":1,
-                "pagesize":10,
-                "source":"JUNWEI000001"
-            }
+	"employee_type":0,
+	"data":   
+	   {"source":"JUNWEI000001"
+	}
 }
 
 
@@ -105,6 +98,17 @@ data.source| 订单来源|string |Y|A企业 JUNWEI000001
 "Id": 1,
 "StationFullName": "kunming"
 },
+{
+   "StationName": "肇东",
+   "StationShortName": "zd",
+   "StationCode": "ZDB",
+   "Id": 1,
+   "StationFullName": "zhaodong"
+}
+  ],
+  "successcode": "T"
+   }
+}
 
 ```
 

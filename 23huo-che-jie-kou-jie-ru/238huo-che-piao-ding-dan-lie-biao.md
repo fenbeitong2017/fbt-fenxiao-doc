@@ -40,7 +40,7 @@ data.source| 订单来源|string |Y|A企业
 	"sign":"oihfnlyeofdh98",
 	"timestamp":124124325,
 	"employee_id":"59b74c1323445f2d54dd07922",
-	"employee_type":1,
+	"employee_type":0,
 	"data":     {
                 "orderno": "5bab55d22798633d548179cb",
             "status":1,

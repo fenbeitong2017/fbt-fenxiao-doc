@@ -19,8 +19,8 @@ employee_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonobject |Y|
 data.date|开始日期|string  |Y|2018-09-20
-data.fromcity| 出发城市code|string |N|JJG
-data.tocity| 目的城市code|string |Y|WXN
+data.fromcity| 出发车站code|string |N|JJG
+data.tocity| 目的车站code|string |Y|WXN
 data.sign| 签名|string |N|k88uewu98u382o8dssd32t43
 data.source| 订单来源|string |Y|A企业
 
@@ -37,7 +37,7 @@ data.source| 订单来源|string |Y|A企业
 	"sign":"oihfnlyeofdh98",
 	"timestamp":124124325,
 	"employee_id":"59b74c1323445f2d54dd07922",
-	"employee_type":1,
+	"employee_type":0,
 	"data":      {
                 "date": "2018-10-23",
                 "fromcity": "JJG",
