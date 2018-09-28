@@ -65,7 +65,7 @@ data.source| 订单来源|string |Y|A企业
 ContactMobile| 联系人手机|string |Y|5badddec27986379fa183a44
 OrderStatus| 订单状态|integer |Y| 8 详见订单状态码表
 OrderNumber|订单号|string |Y|5badddec27986379fa183a44
-ContactName| 联系人姓名|string |Y|5badddec27986379fa183a44
+ContactName| 联系人姓名|string |Y|韩冰
 Id| 订单状态|integer |Y|序列号
 TotalPayPrice|订单总价|double |Y|22.98
 supplier| 供应商| string|Y|分贝通

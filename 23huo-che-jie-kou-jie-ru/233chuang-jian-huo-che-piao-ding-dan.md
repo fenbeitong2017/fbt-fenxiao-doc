@@ -20,7 +20,7 @@ access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonobject |Y|
-data.contactname|联系人姓名|string  |Y|韩树起
+data.contactname|联系人姓名|string  |Y|韩冰
 data.contactmobile|联系人手机号|string  |Y|17080151667
 data.ticketcount|票数量|string  |Y|1
 data.traincode|火车车次|string  |Y|K876
@@ -32,7 +32,7 @@ data.seatname|坐席类型|string  |Y|硬座
 data.seatcode|坐席类型code|string  |N|
 data.passenger|乘客信息|jsonarray  |Y|乘客信息数据
 passenger.TicketType|票类型|integer  |Y|
-passenger.passengerName|乘客姓名|string  |Y|韩树起
+passenger.passengerName|乘客姓名|string  |Y|韩冰
 passenger.passengerIdCardType|乘客身份类型|integer  |Y|2
 passenger.passengerIdCardNum|乘客身份证件号|string  |Y|iu3k83ks3ls3
 passenger.Insurancecount|保险数量|integer  |Y|0
@@ -58,7 +58,7 @@ data.source|订单来源|string  |Y|A企业
 	"employee_id":"59b74c1323445f2d54dd07922",
 	"employee_type":0,
 	"data":        {
-                "contactname": "韩树起",
+                "contactname": "韩冰",
                 "contactmobile": "17080151667",
                 "ticketcount": 1,
                 "totalprice": 11.00,
@@ -72,7 +72,7 @@ data.source|订单来源|string  |Y|A企业
                 "passenger": [
                   {
                     "TicketType": 1,
-                    "passengerName": "韩树起",
+                    "passengerName": "韩冰",
                     "passengerIdCardType": 2,
                     "passengerIdCardNum": "iu3k83ks3ls3",
                     "Insurancecount": 0

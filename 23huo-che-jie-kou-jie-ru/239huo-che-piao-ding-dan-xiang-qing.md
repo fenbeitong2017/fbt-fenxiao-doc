@@ -71,7 +71,7 @@ TDZ:特等座,YZ:硬座,RZ:软座,RZ2:二等软座,RZ1:一等软座,YWS:硬
 -----|-----|----|----|----
 Id| 序号|string |Y|序号
 OrderNumber|订单号 |string |Y|
-ContactName| 联系人姓名| string|Y|韩树起
+ContactName| 联系人姓名| string|Y|韩冰
 ContactMobile|联系人手机 |string |Y|17080151667
 OrderStatus| 订单状态|integer |Y|参照状态码表
 TotalPayPrice| 订单总价 |double |Y|3.0
@@ -110,9 +110,9 @@ tickets.InsurancePrice|保险价格| string|Y|10
         "ContactMobile": "17080151667",
         "passengers": [
             {
-                "PassengerType": "韩树起",
+                "PassengerType": 1,
                 "IdCardNumber": "iu3k83ks3ls3",
-                "PassengerName": "韩树起",
+                "PassengerName": "韩冰",
                 "IdCardType": 2
             }
         ],
@@ -139,7 +139,7 @@ tickets.InsurancePrice|保险价格| string|Y|10
         "supplier": "分贝通",
         "Id": 1,
         "PayTime": 1538121196844,
-        "ContactName": "韩树起",
+        "ContactName": "韩冰",
         "successcode": "T",
         "intpagecount": 1
     }
