@@ -62,15 +62,22 @@ data.source| 订单来源|string |Y|A企业
 
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
-ContactMobile| 下单时间|string |Y|5badddec27986379fa183a44
-orderStatusKey| 下单时间|integer |Y|3201
-orderId|订单ID|string |Y|5badddec27986379fa183a44
+ContactMobile| 联系人手机|string |Y|5badddec27986379fa183a44
+OrderStatus| 订单状态|integer |Y| 8 详见订单状态码表
+OrderNumber|订单号|string |Y|5badddec27986379fa183a44
+ContactName| 联系人姓名|string |Y|5badddec27986379fa183a44
+Id| 订单状态|integer |Y|序列号
+TotalPayPrice|订单总价|double |Y|22.98
 supplier| 供应商| string|Y|分贝通
 source|订单来源 |string |Y|JUNWEI000001
 successcode| 成功标识 |string |Y| T-成功;F-失败
 
 
 
+```
+待确认:0,待支付:1,待出票:2,已出票:3,拒单等待退款:4,拒单退款中:5,拒单已退款:6,拒单退款失败:7,已取消:8
+
+```
 
 
 
@@ -87,7 +94,7 @@ successcode| 成功标识 |string |Y| T-成功;F-失败
                 "OrderStatus": 8,
                 "OrderNumber": "5ba319762798633c0ae85162",
                 "Id": 1,
-                "ContactName": "韩树起",
+                "ContactName": "韩冰",
                 "TotalPayPrice": 162.5,
                 "intrecordcount": 1
             }

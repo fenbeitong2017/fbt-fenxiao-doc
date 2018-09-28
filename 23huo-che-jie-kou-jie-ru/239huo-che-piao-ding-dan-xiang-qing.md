@@ -27,6 +27,24 @@ data.source| 订单来源|string |Y|A企业
 
 
 
+
+
+```
+
+TDZ:特等座,YZ:硬座,RZ:软座,RZ2:二等软座,RZ1:一等软座,YWS:硬卧上铺,YWZ:硬卧中铺,YWX:硬卧下铺,RWS:软卧上铺,RWX:软卧下铺,GWS:高级软卧上铺,GWX:高级软卧上铺,SWZ:商务座
+
+
+
+身份证:1 护照:2,军官证:3,士兵证:4,台胞证:5,其他:6
+
+
+
+```
+
+
+
+
+
 请求示例：
 
 ```
@@ -48,6 +66,38 @@ data.source| 订单来源|string |Y|A企业
 
 
 ```
+
+
+
+响应数据:
+
+字段|名称|类型|必填|描述
+-----|-----|----|----|----
+Id| 序号|string |Y|序号
+OrderNumber|订单号 |string |Y|
+ContactName| 联系人姓名| string|Y|韩树起
+ContactMobile|联系人手机 |string |Y|17080151667
+OrderStatus| 订单状态|integer |Y|参照状态码表
+TotalPayPrice| 订单总价 |double |Y|3.0
+PayTime| 支付时间|string |Y|11：30
+passengers| 乘客对象集合 |jsonarray |Y|乘客信息集合
+passengers.PassengerName| 乘客姓名|integer |Y|韩冰
+passengers.PassengerType|乘客类型 |integer |Y|成人票 = 1,儿童票 = 2
+passengers.IdCardType| 乘客证件类型| string|Y|参照证件类型表
+passengers.IdCardNumber|乘客证件号 |string |Y|1234567
+tickets| 票信息集合|jsonarray |Y|票信息集合
+tickets.DepartPort|出发车站 |string |Y|九江
+tickets.DepartTime| 出发时间|string |Y|13:02
+tickets.ArrivePort|到达车站 |string |Y|武穴
+tickets.ArriveTime| 到达时间 |string |Y|13:40
+tickets.TrainNo|火车列次| string|Y|K876
+tickets.SeatType|座位类型 |integer |Y|参照类型表
+tickets.SeatNo| 座位号|string |Y|13车厢,061号
+tickets.Coach|车厢 |string |Y|13车厢,061号
+tickets.Price| 价格 |double |Y|3.0
+tickets.InsuranceNum|保险份数 |integer |Y|1
+tickets.InsuranceNumber| 保单号 |string |Y|89ifiu9873isd9832
+tickets.InsurancePrice|保险价格| string|Y|10
 
 
 
