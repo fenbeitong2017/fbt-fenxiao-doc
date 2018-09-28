@@ -44,22 +44,15 @@ data.source| 订单来源|string |Y|A企业 JUNWEI000001
 
 
 
+响应数据:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+字段|名称|类型|必填|描述
+-----|-----|----|----|----
+Id| 序号|string |Y|序号
+StationName|车站名称 |string |Y|北京西
+StationCode| 站点代码| string|Y|如: BXP
+StationShortName|站点简拼 |string |Y|如:bjx
+StationFullName| 站点全拼 |string |Y|如:beijingxi
 
 
 ```

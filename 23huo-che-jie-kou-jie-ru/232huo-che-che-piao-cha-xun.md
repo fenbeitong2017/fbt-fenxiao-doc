@@ -53,6 +53,76 @@ data.source| 订单来源|string |Y|A企业
 
 
 
+响应数据:
+
+字段|名称|类型|必填|描述
+-----|-----|----|----|----
+Id| 序号|string |Y|序号
+TrainCode|火车列次 |string |Y|车次
+TrainType|  火车类型| string|Y|如: 高速动车
+StartCity|出发站 |string |Y|如:北京
+StartTime| 出发时间|string |Y|如:HH:mm
+EndCity| 到达站|string |Y|如:上海
+EndTime|到达时间 |string |Y|HH:mm
+BeginStation| 始发站| string|Y|始发站
+EndStation|终点站 |string |Y|终点站
+Distance| 距离 |integer |Y|1463
+CostTime| 耗时|string |Y|如:25分
+OverNight|隔夜天数 |string |Y|隔夜天数
+YZ_YP| 硬座余票 |integer |Y|“-“ 或为0代表无票(“-1”代表无此席位) 
+RZ_YP|软座余票|integer|Y|“-“ 或为0代表无票(“-1”代表无此席位)
+RZ2_YP| 二等软座余票 |integer|Y|“-“ 或为0代表无票(“-1”代表无此席位) 
+RZ1_YP| 一等软座余票 |integer |Y|“-“ 或为0代表无票(“-1”代表无此席位) 
+YW_YP| 硬卧余票 |integer |Y|“-“ 或为0代表无票(“-1”代表无此席位) 
+RW_YP| 软卧余票 |integer |Y|“-“ 或为0代表无票(“-1”代表无此席位) 
+GW_YP|  高级软卧余票 |integer |Y|“-“ 或为0代表无票(“-1”代表无此席位) 
+SWZ_YP| 商务座余票 |integer |Y|“-“ 或为0代表无票(“-1”代表无此席位) 
+WZ_YP| 无座余票 |integer |Y|“-“ 或为0代表无票(“-1”代表无此席位) 
+TDZ_YP| 特等座余票 |integer |Y|“-“ 或为0代表无票(“-1”代表无此席位) 
+SWZ|  商务座价格 |double |Y|精确到小数点后一位(“-”代表无价格)
+GWX| 高级软卧下铺价格 |double |Y|精确到小数点后一位(“-”代表无价格)
+GWS| 高级软卧上铺价格 |double |Y|精确到小数点后一位(“-”代表无价格)
+RWX|  软卧下铺价格 |double |Y|精确到小数点后一位(“-”代表无价格)
+RWS| 软卧上铺价格 |double |Y|精确到小数点后一位(“-”代表无价格)
+YWX| 硬卧下铺价格 |double |Y|精确到小数点后一位(“-”代表无价格)
+YWZ|  硬卧中铺价格 |double |Y|精确到小数点后一位(“-”代表无价格)
+YWS| 硬卧上铺价格 |double |Y|精确到小数点后一位(“-”代表无价格)
+RZ1| 一等软座价格 |double |Y|精确到小数点后一位(“-”代表无价格)
+RZ2| 二等软座价格 |double |Y|精确到小数点后一位(“-”代表无价格)
+RZ| 软座价格 |double |Y|精确到小数点后一位(“-”代表无价格)
+YZ| 硬座价格 |double |Y|精确到小数点后一位(“-”代表无价格)
+TDZ| 特等座价格 |double |Y|精确到小数点后一位(“-”代表无价格)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ```
