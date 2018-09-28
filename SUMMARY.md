@@ -7,7 +7,7 @@
     * [1.1.2接口环境说明](11-jie-ru-shuo-ming/112jie-kou-huan-jing-shuo-ming.md)
     * [1.1.3接口接入流程](11-jie-ru-shuo-ming/113jie-kou-jie-ru-liu-cheng.md)
   * [1.2文档版本说明](12wen-dang-ban-ben-shuo-ming.md)
-* 2.分销API接口接入\(调整中\)
+* [2.分销API接口接入\(调整中\)](2fen-xiao-api-jie-kou-jie-516528-diao-zheng-4e2d29.md)
   * [2.1API鉴权接口,颁发token](21apijian-quan-jie-53e32c-ban-fa-token.md)
   * [2.2API接入说明](22apijie-ru-shuo-ming.md)
     * [2.2.1 签名算法](22apijie-ru-shuo-ming/221-qian-ming-suan-fa.md)
