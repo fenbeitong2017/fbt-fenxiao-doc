@@ -59,6 +59,16 @@ data.source|订单来源|string  |Y|A企业
 
 
 
+响应数据:
+
+字段|名称|类型|必填|描述
+-----|-----|----|----|----
+orderStatusValue| 订单状态value|string |Y|5badddec27986379fa183a44
+orderStatusKey| 订单状态key|integer |Y|3201
+orderId|订单ID|string |Y|5badddec27986379fa183a44
+supplier| 供应商| string|Y|分贝通
+source|订单来源 |string |Y|JUNWEI000001
+successcode| 成功标识 |string |Y| T-成功;F-失败
 
 
 

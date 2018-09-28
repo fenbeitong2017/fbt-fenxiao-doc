@@ -89,6 +89,15 @@ data.source|订单来源|string  |Y|A企业
 
 
 
+响应数据:
+
+字段|名称|类型|必填|描述
+-----|-----|----|----|----
+orderTime| 下单时间|string |Y|16:08
+orderId|订单ID|string |Y|5badddec27986379fa183a44
+supplier| 供应商| string|Y|分贝通
+source|订单来源 |string |Y|JUNWEI000001
+successcode| 成功标识 |string |Y| T-成功;F-失败
 
 
 

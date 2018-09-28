@@ -58,6 +58,19 @@ data.source| 订单来源|string |Y|A企业
 
 
 
+响应数据:
+
+字段|名称|类型|必填|描述
+-----|-----|----|----|----
+ContactMobile| 下单时间|string |Y|5badddec27986379fa183a44
+orderStatusKey| 下单时间|integer |Y|3201
+orderId|订单ID|string |Y|5badddec27986379fa183a44
+supplier| 供应商| string|Y|分贝通
+source|订单来源 |string |Y|JUNWEI000001
+successcode| 成功标识 |string |Y| T-成功;F-失败
+
+
+
 
 
 
@@ -70,7 +83,7 @@ data.source| 订单来源|string |Y|A企业
     "data": {
         "data": [
             {
-                "ContactMobile": "韩树起",
+                "ContactMobile": "17080151667",
                 "OrderStatus": 8,
                 "OrderNumber": "5ba319762798633c0ae85162",
                 "Id": 1,

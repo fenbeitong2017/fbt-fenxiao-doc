@@ -70,7 +70,7 @@ Distance| 距离 |integer |Y|1463
 CostTime| 耗时|string |Y|如:25分
 OverNight|隔夜天数 |string |Y|隔夜天数
 YZ_YP| 硬座余票 |integer |Y|“-“ 或为0代表无票(“-1”代表无此席位) 
-RZ_YP|软座余票|integer|Y|“-“ 或为0代表无票(“-1”代表无此席位)
+RZ_YP|软座余票| integer|Y|"-" 或为0代表无票(“-1”代表无此席位)
 RZ2_YP| 二等软座余票 |integer|Y|“-“ 或为0代表无票(“-1”代表无此席位) 
 RZ1_YP| 一等软座余票 |integer |Y|“-“ 或为0代表无票(“-1”代表无此席位) 
 YW_YP| 硬卧余票 |integer |Y|“-“ 或为0代表无票(“-1”代表无此席位) 
