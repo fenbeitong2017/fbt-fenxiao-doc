@@ -20,7 +20,27 @@ access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonobject |Y|
-data.date|开始日期|string  |Y|2018-09-20
+data.contactname|联系人姓名|string  |Y|韩树起
+data.contactmobile|联系人手机号|string  |Y|17080151667
+data.ticketcount|票数量|string  |Y|1
+data.traincode|火车车次|string  |Y|K876
+data.totalprice|订单总价|double  |Y|11.00
+data.fromstation|出发站|string  |Y|九江
+data.fromstation|目的站|string  |Y|武穴
+data.sdate|车次日期|string  |Y|2018-10-24
+data.seatname|坐席类型|string  |Y|硬座
+data.seatcode|坐席类型code|string  |N|
+data.passenger|乘客信息|jsonarray  |Y|乘客信息数据
+passenger.TicketType|票类型|integer  |Y|
+passenger.passengerName|乘客姓名|string  |Y|韩树起
+passenger.passengerIdCardType|乘客身份类型|integer  |Y|2
+passenger.passengerIdCardNum|乘客身份证件号|string  |Y|iu3k83ks3ls3
+passenger.Insurancecount|保险数量|integer  |Y|0
+data.supplier|供应商|string  |Y|分贝通
+data.source|订单来源|string  |Y|A企业
+
+
+
 
 
 

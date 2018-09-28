@@ -20,7 +20,24 @@ access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonobject |Y|
-data.bdate|开始日期|string  |Y|2018-09-20
+data.orderno|订单号|string  |Y|5bade0b427986379fa183a75
+data.ticketnos|票号|jsonarray  |Y|5bade0b427986379fa183a76
+data.supplier|供应商|string  |Y|分贝通
+data.source|订单来源|string  |Y|A企业
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
